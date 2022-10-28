@@ -170,10 +170,10 @@ input {
 }
 
 #showscore {
-  background-color: #606467;
+  background-color: #ffffff;
   margin-top: 2rem;
   padding: 2rem 3rem;
-  box-shadow: 0 1rem 1rem -0.7rem rgba(12, 11, 11, 0.4);
+  /* box-shadow: 0 1rem 1rem -0.7rem rgba(12, 11, 11, 0.4); */
   border-radius: 10px;
   text-align: center;
   align-items: center;

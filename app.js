@@ -113,6 +113,9 @@ const timeCount = document.querySelector("#timeCount");
 const timeLines = document.querySelector(".timeLines");
 const MCQ = document.querySelector(".MCQ");
 
+const mainDiv = document.querySelector(".main-div");
+const innerDiv = document.querySelector(".inner-div");
+
 let questionCount = 0;
 let score = 0;
 const startingMinute = 10;
@@ -172,6 +175,8 @@ submit.addEventListener("click", () => {
     timeCount.style.display = "none";
     submit.style.display = "none";
     MCQ.style.display = "none";
+    mainDiv.style.background = "#FDDD61";
+    innerDiv.style.background = "none";
   }
 });
 
@@ -197,6 +202,8 @@ function updateCountdown() {
     timeCount.textContent = "Finish Your Time: 00:00";
     submit.style.display = "none";
     MCQ.style.display = "none";
+    mainDiv.style.background = "#FE636B";
+    innerDiv.style.background = "none";
   }
 }
 
